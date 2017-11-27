@@ -1,0 +1,122 @@
+body{
+	font-family:Arial;
+	}
+
+#espacio_juego{
+	background-image:url(../img/fondo_espacio.jpg); /* Introducir la imagen de fondo */
+	background-repeat:no-repeat; /* No repetir la imagen */
+	background-size:cover; /* Resize la imagen de fondo */
+	width:480px;
+	height:320px; /*Valores para Movil*/
+	alignment-adjust:middle;
+	position:absolute;
+	border-style:solid;
+	border-color:orange;
+}
+
+#panel_control{
+	position:relative;
+	margin-top:1em;
+	margin-left:1em;
+	width:15%;
+	height:33%;
+	background-color:transparent;
+	text-align:center;
+	color:#48eedc;
+	font-size:6px;
+	font-weight:bold;
+	}
+	
+	#elementos{
+		height:70%;
+		width:95%;
+		margin:auto;
+		font-size:4px;
+		border-collapse:collapse;
+		}
+		.propiedad{
+			background-color:transparent;
+			text-align:right;
+			padding-right:6px;
+			width:57%;
+			color:#61f516;
+			}
+		.valor{
+			background-color:#e1f516;
+			width:28%;
+			border-bottom:solid 2px #16abf5;
+			border-left:solid 2px #16abf5;
+			border-top:solid 2px #16abf5;
+			color:#290df6;
+			}
+		.unidad{
+			background-color:#e1f516;
+			width:15%;
+			border-bottom:solid 2px #16abf5;
+			border-right:solid 2px #16abf5;
+			border-top:solid 2px #16abf5;
+			color:#290df6;
+			}
+#panel_opciones{
+	position:absolute;
+	top:0px;
+	right:0px;
+	margin-top:1em;
+	margin-right:1em;
+	width:15%;
+	height:35.5%;
+	background-color:transparent;
+	text-align:center;
+	color:#48eedc;
+	font-size:6px;
+	font-weight:bold;
+	}
+	#opciones{
+		background-color:transparent;
+		height:70%;
+		width:95%;
+		margin:auto;
+		font-size:4px;
+		color:#61f516;
+		}
+		.boton{
+			border-style:solid;
+			border-color:#290df6;
+			border-width:2px;
+			background-color:#abaaaa;
+			}
+#nave{
+	width:8%;
+	height:22%;
+	/* border:solid;
+	border-color:orange; */
+	background-color:transparent;
+	background-image:url(../img/nave.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:30%;
+	left:48%;
+	}
+	
+#astronauta{
+	width:12%;
+	height:16%;
+	/* border:solid;
+	border-color:orange; */
+	background-color:transparent;
+	background-image:url(../img/astronauta.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:73%;
+	left:19%;
+	}
+
+#version{
+	position:absolute;
+	bottom:4%;
+	left:95%;
+	color:white;
+	font-size:3px;
+	}
