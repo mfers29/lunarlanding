@@ -11,6 +11,6 @@ Las hojas CSS tanto para mvl. como para pc. validan con el siguiente [enlace](ht
 Las hojas HTML con [este](https://validator.w3.org/)  
 Adjunto el enlace a RawGit https://rawgit.com/mfers29/lunarlanding/master/index.html  
 
-La estructura del juego sigue el siguiente esquema: 
+La estructura del juego sigue el siguiente ![esquema:](https://github.com/mfers29/lunarlanding/blob/master/Estructura_juego.jpg)
 
 
